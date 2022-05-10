@@ -4,3 +4,4 @@ C = [input() for _ in range(N)]
 
 print("".join(C)) 
 
+ 
