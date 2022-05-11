@@ -1,3 +1,4 @@
+#りんごとみかんの詰め合わせ
 N = int(input())
 S = list(input())
 
