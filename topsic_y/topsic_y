@@ -1,0 +1,13 @@
+#文字列の一致
+S = input()
+T = input()
+
+S_1 = S.lower()
+T_1 = T.lower()
+
+#print(S_1,T_1)
+
+if S_1 == T_1:
+    print("Yes")
+else:
+    print("No")
