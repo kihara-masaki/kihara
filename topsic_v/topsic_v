@@ -1,0 +1,19 @@
+N = int(input())
+S = list(input())
+
+apple = []
+orange = []
+
+for items in S:
+    if items == "A":
+        apple.append("A")
+    else:
+        orange.append("B")
+
+if "A" in apple and "B" in orange:
+    print("2")
+elif "A" in apple or "B"in orange:
+    print("1")
+else:
+    print("0")
+
