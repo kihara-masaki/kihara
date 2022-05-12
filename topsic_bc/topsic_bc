@@ -1,0 +1,5 @@
+#文字の数
+S = list(input())
+S_1 = set(S)
+
+print(len(S_1))
