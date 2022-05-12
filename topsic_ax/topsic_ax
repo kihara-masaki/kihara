@@ -1,0 +1,8 @@
+#変化するモンスターの名前
+S = list(input())
+N = int(input())
+
+for i in range(N):
+    S.insert(0,"a")
+
+print("".join(S))
