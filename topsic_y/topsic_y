@@ -8,6 +8,6 @@ T_1 = T.lower()
 #print(S_1,T_1)
 
 if S_1 == T_1:
-    print("Yes")
+    print("YES")
 else:
-    print("No")
+    print("NO")
