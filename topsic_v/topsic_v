@@ -1,20 +1,11 @@
 #りんごとみかんの詰め合わせ
 N = int(input())
-S = list(input())
+A = list(input())
 
-apple = []
-orange = []
+count = 1
 
-for items in S:
-    if items == "A":
-        apple.append("A")
-    else:
-        orange.append("B")
+for i in range(1,N):
+    if A[i-1] != A[i]:
+        count +=1
 
-if "A" in apple and "B" in orange:
-    print("2")
-elif "A" in apple or "B"in orange:
-    print("1")
-else:
-    print("0")
-
+print(count)
