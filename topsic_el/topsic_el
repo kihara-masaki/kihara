@@ -1,0 +1,10 @@
+#品切れ
+N = int(input())
+A = list(map(int,input().split()))
+B = list(map(int,input().split()))
+
+box = []
+for i in range(N):
+    if A[i] < B[i]:
+        box.append(i+1)
+print(box[0])
