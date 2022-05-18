@@ -1,0 +1,8 @@
+N = int(input())
+D = [int(input()) for _ in range(N)]
+
+X = 0
+Y = 0
+
+for i in range(N):
+    if i 
