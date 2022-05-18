@@ -1,8 +1,11 @@
+from itertools import count
+
+
 N = int(input())
 D = [int(input()) for _ in range(N)]
 
-X = 0
-Y = 0
+X = sum(D[0::4]) - sum(D[2::4])
 
-for i in range(N):
-    if i 
+Y = sum(D[3::4]) - sum(D[1::4])
+
+print(X,Y)
